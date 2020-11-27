@@ -1,8 +1,8 @@
 
-
-
 #bloc_page
 {
+    width: 900px;
+    height: auto;
 }
 
 #headercontainer
@@ -63,7 +63,7 @@ font-weight: 300px;
 header h1
 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 900px;    
+  font-weight: 800px;    
     margin-left: 15px;
     cursor: text;
 
@@ -114,19 +114,23 @@ input
 #filtercontainer
 {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    justify-content: flex-start;
     margin-top: 26px;
-   margin-left: 20px;
+   margin-left: 15px;
+   border: 2px solid black;
 
 
 
 }
-.filtres2
+.f2
 {
+    display: flex;
+    flex-direction: row;
 font-family: 'Raleway', sans-serif;
-font-weight: 900px;  
-margin-right: 25px;
-
+font-weight: 800px;  
+ margin-top: 26px;
+ margin-right: 10px;
 }
 
 .iconenom
@@ -135,6 +139,7 @@ margin-right: 25px;
     flex-direction: row;
     margin-right: 25px;
     margin-top: 15px;
+    margin-left: 15px;
     border: solid;
     border-width:1px;
     border-color: #F2F2F2;
@@ -148,7 +153,7 @@ margin-right: 25px;
     transition:all 600ms;
     height: 35px;
     font-family: 'Raleway', sans-serif;
-font-weight: 900px;   
+font-weight: 800px;   
 }
 .iconedog
 {
@@ -233,24 +238,41 @@ img
 footer p
 {
         word-wrap: break-word;
-        font-family: 'ralewaythin';
-        cursor: text;
+        font-family: 'Raleway', sans-serif;
+font-weight: 300px;  
 
 }
 .dz
 {
 font-family: 'Raleway', sans-serif;
-font-weight: bold;  
+font-weight:    300px;  
 color: black;
+}
+.section1
+{
+    border: 1px solid black;
 }
 .case1
 {
+    border: 1px solid blue;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.case
+.titre1
 {
-    display: flex;
-    
+      font-family: 'Raleway', sans-serif;
+font-weight: 800px;  
+}
+aside
+{
+   border:1px solid black;
+}
+
+.titre2
+{
+      font-family: 'Raleway', sans-serif;
+font-weight: 800px;  
 }
 
 
