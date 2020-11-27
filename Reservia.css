@@ -34,6 +34,8 @@ nav a:hover
 {
     color: blue;
     border-top: 1px solid #0065FC;
+    padding: 20px;
+    transition:all 200ms;
 
 }
 nav a:visited
@@ -100,6 +102,11 @@ input
     display: flex;
     align-items:center;
 }
+input text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800px;
+
+}
 .btn
 {
     border: 1px solid white;
@@ -155,6 +162,10 @@ font-weight: 800px;
     font-family: 'Raleway', sans-serif;
 font-weight: 800px;   
 }
+.iconenom:hover
+{
+    background-color:#DEEBFF;
+}
 .iconedog
 {
     color:#0065FC;
@@ -196,16 +207,16 @@ font-weight: 800px;
     margin-left: 20px;
 
 }
-
 .iconeinfo
 {
     border: solid;
     border-width: 2px;
-    border-color:#F2F2F2 ;
+    border-color:black ;
     border-radius: 50%;
-    padding-left: 7px;
-    padding-top: 3px;
-    padding-bottom: 3px;    
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom:4px;    
     color: blue;
     margin-top: 20px;
     font-size: 12px;
