@@ -21,18 +21,19 @@ margin: 15px;
 }
 nav a
 {
-    color: black;
-    font-size: 1em;
-    color: black;
+    color: blue;
+    font-size: 1.3em;
     padding-bottom: 3px;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-weight: 300px;
+    font-weight:800px;
+    font-size: 18px;
+    border-top: 3px solid #0065FC;
+
 }
 nav a:hover
 {
     color: blue;
-    border-top: 1px solid #0065FC;
     padding: 20px;
     transition:all 200ms;
 
@@ -249,6 +250,187 @@ cursor: text;
 
 
 
+
+#allsection
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.containercases
+{
+     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+section a
+{
+    text-decoration: none;
+}
+
+#section1
+{
+    background-color:  #F2F2F2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.cases1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border: solid white;
+    border-width: 3px;
+    background-color: white;
+    border-radius: 18px;
+    padding: 1px;
+    margin:20px;
+    margin-top: 20px;
+    height: auto;
+    width: 220px;
+    font-size: 15px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
+    transform: scale(1);
+    transition:400ms;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+.cases1:hover
+{
+        transform: scale(1);
+    transition:400ms;
+}
+.prix1
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300px;
+    color: black;
+  margin-left: 10px;
+  font-size: 12px;
+
+}
+
+.images1
+{
+    border-radius: 15px 15px 0 0;
+    width: 220px;
+    height: 100px;
+}
+.iconestar1
+{
+    margin-left: 10px;
+}
+.showmore
+{
+    margin-bottom:10px; 
+    margin-left:20px;
+}
+
+    #section2
+{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    height: auto;
+    width: auto
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.titre2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:1px solid blue;
+}
+.title2 h3
+{
+font-family: 'Raleway', sans-serif;
+    font-weight: 800px;
+    color: black;
+    font-size: 17px;
+}
+
+.images2
+{
+    height: 130px;
+    width: 120px;
+    border-radius: 17px 0 0 17px;
+}
+
+.prix2
+{
+font-family: 'Raleway', sans-serif;
+font-weight: 300px;  
+margin: 5px;   
+color: black;
+font-size: 12px;
+
+}
+.cases2
+{
+    background-color: white;
+    border: 3px solid white;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 17px;
+    margin: 20px;
+    
+    box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
+
+ transition: 400ms;
+
+
+}
+.iconechart
+{
+    align-self: center;
+}
+
+.populaires
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800px;
+    color: black;
+    font-size: 18px;
+
+}
+  #section3
+{
+    background-color: grey;
+    border-radius: 20px;
+    height: 666;
+    width: 1180px;
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+
+
+
+
+
 /*---FOOTER*/
 footer  p
 {
@@ -258,7 +440,8 @@ font-weight: 300px;
 footer h2
 {
     font-family: 'Raleway', sans-serif;
-font-weight: 600px;
+font-weight: 300px;
+font-size: 17px;
 }
 footer li 
 {
@@ -284,51 +467,4 @@ footer
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-#section1
-{
-    background-color: grey;
-}
-.cases1
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    border: solid white;
-    border-width: 3px;
-    background-color: white;
-    border-radius: 18px;
-    padding: 1px;
-    border: solid;
-    border-color: white;
-    margin: 10px;
-    margin-top: 35px;
-    height: auto;
-    width: 220px;
-    font-size: 12px;
-    box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
-    transition:all 200ms;
-
-}
-h3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800px;
-    color: black;
-}
-.prix1
-{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300px;
-    color: black;
-}
-section a
-{
-    text-decoration: none;
-}
-.images1
-{
-    border-radius: 15px 15px 0 0;
-    width: 220px;
-    height: 100px;
 }
