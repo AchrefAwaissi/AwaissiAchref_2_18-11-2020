@@ -2,6 +2,11 @@
 {
     height:auto;
     width: auto;
+
+}
+body
+{
+    margin-top: 0;
 }
 /*---HEADER*/
 #headercontainer
@@ -74,7 +79,7 @@ nav a:visited
     font-weight: bold;
     color: blue;
     margin-right: 0;
-    }
+}
 
 nav a:visited
 {
@@ -147,6 +152,12 @@ input
     border-color: #F2F2F2;    
     display: flex;
     align-items:center;
+}
+::placeholder {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
 }
 .btn
 {
@@ -310,7 +321,7 @@ cursor: text;
 {
      display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
     border: 2px solid black;
 }
@@ -324,7 +335,7 @@ section a
     background-color:  #F2F2F2;
     border-radius: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
     width: auto;
@@ -337,24 +348,24 @@ section a
 {
      font-family: 'Raleway', sans-serif;
     font-weight: 800px;
-    margin-left: 30px;
-    margin-top: 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+  margin-left: 20px;
+
 
 }
 
 .cases1
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+
     border: solid white;
     border-width: 3px;
     background-color: white;
     border-radius: 18px;
     padding: 1px;
-    margin: 25px;
-    margin-top: 10px;
+    margin: 10px;
+    margin-top: 20px;
     height: auto;
     width: auto;
     font-size: 15px;
@@ -362,7 +373,8 @@ section a
     transform: scale(1);
     transition:400ms;
 }
-h3{
+h3 
+{
     font-family: 'Raleway', sans-serif;
     font-weight: 800px;
     color: black;
@@ -389,9 +401,10 @@ h3{
 
 .images1
 {
-    border-radius: 15px 15px 0 0;
-    width: 220px;
-    height: 100px;
+ border-radius: 15px 15px 0 0;
+height: 110px;
+width:230px;
+object-fit: cover;
 }
 .iconestar1
 {
@@ -409,9 +422,10 @@ h3{
 }
 .showmore
 {
-    margin-bottom:10px; 
-    margin-left:20px;
-    margin-top: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ margin-left: 20px;
     
 }
 .greystar
@@ -421,10 +435,13 @@ h3{
 
     #section2
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #F2F2F2;
     border-radius: 20px;
     height: auto;
-    width: auto
+    width: auto;
     margin-left:20px;
     margin-right: 20px;
 }
@@ -450,9 +467,12 @@ font-family: 'Raleway', sans-serif;
 
 .images2
 {
-    height:  125px;
-    width: 115px;
-    border-radius: 17px 0 0 17px;
+    height: 127px;
+    width:115px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    display: flex;
+    object-fit: cover;
 }
 
 .prix2
@@ -474,11 +494,9 @@ font-size: 12px;
     display: flex;
     flex-direction: row;
     border-radius: 17px;
-    margin: 20px;
-    
+    margin: 20px;    
     box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
-
- transition: 400ms;
+    transition: 400ms;
 
 
 }
@@ -498,20 +516,32 @@ font-size: 12px;
 }
   #section3
 {
-    background-color: grey;
-    border-radius: 20px;
-    height: 666;
-    width: 1200px;
-    margin-left: 25px;
-    margin-top: 80px;
+background-color: white;
+border-radius: 17px;
+height: 500;
+width: 1200px;
+margin-left: 25px;
+margin-top: 80px;
 }
-
-
-
-
-
-
+.images3
+{
+width: 275px;
+height: 330px;
+border-radius:17px 17px 0 0;
+}
+.cases3
+{
+background-color: white;
+width: 275px;
+height: 380px;
+border-radius: 17px;
+box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
+}
 /*---FOOTER*/
+footer
+{
+background-color: #F2F2F2;
+}
 footer  p
 {
 font-family: 'Raleway', sans-serif;
@@ -519,32 +549,32 @@ font-weight: 300px;
 }
 footer h2
 {
-    font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
 font-weight: 300px;
 font-size: 17px;
 }
 footer li 
 {
-    list-style-type: none;
+list-style-type: none;
 }
 footer a
 {
-     color: black;
-    font-size: 1em;
-    color: black;
-    padding-bottom: 3px;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300px;
+color: black;
+font-size: 1em;
+color: black;
+padding-bottom: 3px;
+text-decoration: none;
+font-family: 'Raleway', sans-serif;
+font-weight: 300px;
 }
 footer a:hover
 {
-    text-decoration: underline;
+text-decoration: underline;
 }
 footer 
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
 }
