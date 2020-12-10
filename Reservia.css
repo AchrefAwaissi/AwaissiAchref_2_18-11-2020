@@ -199,6 +199,8 @@ input
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+       margin-left: 20px;
+
 }
 #Filtrecontainer{
     display: flex;
@@ -465,7 +467,6 @@ font-weight: bold;
     width:340px;
     padding: 20px;
     margin-top: 20px;   
-
     border-radius: 17px;
 }
 
@@ -691,7 +692,7 @@ body
     display: none;
 
     }
-       }
+       
  #section12
     {
         display: flex;
@@ -707,9 +708,7 @@ body
     }
     .sinscrire
     {
-        display: flex;
-        order: 2;
-      align-self: baseline;    }
+      align-self: baseline;}
     nav ul {
         display: flex;
         flex-wrap: wrap;
@@ -762,107 +761,7 @@ body
     }
 
 }
-/*h
-@media screen and (max-width: 1270px)
-{
-/*
-   
 
-    
-
-   
-}
-
-
-
-@media screen and (max-width: 925px)
-{
-    .inscrire
-    {
-        display: flex;
-        order:2;
-    }
-
-    #section1
-    {   display: flex;
-        flex-wrap: wrap;
-        height: auto;
-        width: auto;
-    }
-    
-    .cases1
-    {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .images3
-    {
-        border-top-left-radius: 17px;
-        border-top-right-radius: 17px;
-        height:110px;
-        width: 266px;
-    }
-    .cases3
-    {
-               width: 266px;
- 
-    }
-    button
-    {
-        display: none;
-    }
-
-    footer
-    {
-        display: flex;
-        flex-direction: column;
-        padding-left: 40px;
-}
- .casecontainer2
-    {
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    
-    }
-}
-    /*
-
-    #section3
-    {
-        display: flex;
-        flex-wrap: wrap;
-        height: auto;
-        height: auto;
-
-
-    }
-
-    .small,.small2
-    {
-        display: flex;
-        height: auto;
-
-    }
-
-    footer
-    {
-        height: auto;
-    }
-
-    .section12
-    {
-        display: flex;
-        flex-wrap: wrap-reverse;
-         height: auto;
-
-    }
-}
-/*---FOOTER*/
 /*---FOOTER*/
 footer
 {
