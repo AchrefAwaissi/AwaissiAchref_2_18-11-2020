@@ -159,7 +159,7 @@ input
     color: white;
     border: none;
     border-radius: 1rem ;
-    padding:15px;
+    padding:13px;
     font-size: 1em;
     cursor: pointer;
 }
@@ -222,7 +222,7 @@ justify-content:flex-start;
    margin-top: 50px;
    font-family: 'Raleway', sans-serif;
    font-weight: bold;
-   font-size: 18px;
+   font-size: 15px;
 }
 
 .icone1
@@ -244,8 +244,13 @@ justify-content:flex-start;
     padding-right:10px;
     transition:all 600ms;
     height: 35px;
+    
+}
+.text1
+{
     font-family: 'Raleway', sans-serif;
-font-weight: 800px;   
+font-weight: 800px; 
+font-size: 15px;  
 }
 .iconenom:hover
 {
@@ -459,9 +464,9 @@ font-weight: bold;
 
 #section2
 {
- display: flex;
- flex-direction: column;
- justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex-flow: column wrap;
     background-color: #F2F2F2;
     width:340px;
@@ -697,24 +702,32 @@ body
     {
         display: flex;
         flex-wrap: wrap-reverse;
+
     }
      #section1
     {
-   height: auto;     
+   height: auto;  
+   display: flex;
+    flex-direction: column; 
+    align-items: flex-start;  
     }
     .containercases
     {
-        margin: 15%;
+       display: flex;
+       flex-direction: column;   
+       align-items: center;
+       align-self:center; 
+
     }
     .sinscrire
     {
-      align-self: baseline;}
-    nav ul {
+      align-self: baseline;
+  }
+     nav ul {
         display: flex;
         flex-wrap: wrap;
-        align-items: stretch;
+        
     }
-
      .images3
     
     {
@@ -738,7 +751,7 @@ body
     }
     .casecontainer2
     {
-        
+
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -753,14 +766,25 @@ body
                 margin: 10px;
 
     }
-    footer
-    {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
+    .text3
+{
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: start;
 
 }
+    footer
+    {
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+
+    }
+     }
 
 /*---FOOTER*/
 footer
@@ -800,6 +824,8 @@ footer
 {
 display: flex;
 flex-direction: row;
-justify-content: space-around;
-flex-wrap: wrap;
+justify-content: space-between;
+margin-left: 10px;
+margin-right: 1px;
+
 }
