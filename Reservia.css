@@ -47,8 +47,6 @@ nav ul li a:hover {
 
 #inscrire :hover 
 {
-  background-color: #deebff;
-  padding: 50px 0 0 0;
   text-decoration: underline;
 
 }
@@ -111,8 +109,6 @@ input
     border: solid;
     border-width:1px;
     border-color: #F2F2F2;    
-    display: flex;
-    align-items:center;
 }
 ::placeholder {
   color: black;
@@ -150,36 +146,35 @@ input
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    flex-wrap: wrap;
     margin-left: 20px;
+    margin-top: 20px;
 
-}
-#Filtrecontainer{
-    display: flex;
-    flex-direction:row;
-    justify-content: flex-start;
-    margin-top: 26px;
-   margin-left: 20px;
-   flex-wrap: wrap;
 }
 .f2
 {
-    display: flex;
-   flex-direction:column;
-  justify-content:flex-start;
-   margin-right: 7px;
-   margin-top: 50px;
+
    font-family: 'Raleway', sans-serif;
   font-weight: 600px;
    font-size: 20px;
-}
+ padding-top: 7px;
 
+
+}
+.filtercontainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
 .icone1
 {
     display: flex;
     flex-direction: row;
     margin-right: 25px;
     margin-top: 15px;
-    margin-left: 13px;
+    margin-left: 20px;
     border: solid;
     border-width:2px;
     border-color: #F2F2F2;
@@ -192,7 +187,7 @@ input
     padding-right:10px;
     transition:all 600ms;
     height: 35px;
-    
+    width: 200px;
 }
 .text1
 {
@@ -203,6 +198,8 @@ font-size: 15px;
 .icone1:hover
 {
     background-color:#DEEBFF;
+        transform: scale(1.05);
+
 }
 .iconedog
 {
@@ -256,7 +253,7 @@ font-size: 15px;
   font-size: small;
   border: 1px #d0d0d0 solid;
   border-radius: 100%;
-  padding: 5px 9px 5px 9px ;
+  padding: 6px 12px 6px 12px ;
   margin-top: auto;
   margin-bottom: auto;
   font-size: 13px;
@@ -578,9 +575,9 @@ justify-content: space-between;
 {
   height:140px;
   width:265px;
-    object-fit: cover;
-border-top-right-radius: 17px;
-    border-top-left-radius:17px;
+  object-fit: cover;
+  border-top-right-radius: 17px;
+  border-top-left-radius:17px;
 }
 .imgpetite2
 {
@@ -669,6 +666,10 @@ footer {
   .apropos,.noshebergements,.assistance {
     padding-left: 20px;
   }
+  .infophrase
+{
+padding-top: 12px; 
+}
 #boutonloupe 
 {
     display: show;
@@ -678,14 +679,20 @@ footer {
     {
     display: none;
     }
+ .filtercontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+    .f2
+    {
+        margin-left: 20px;
+    }
     #allfilter
     {
         display: flex;
         flex-direction: column;
-    }
-    .f2
-    {
-        margin-left: 20px;
     }
        
  #section12
