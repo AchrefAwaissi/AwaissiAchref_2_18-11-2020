@@ -346,7 +346,7 @@ font-size: 20px;
 }
 
 
-h3 
+.title1
 {
     font-family: 'Raleway', sans-serif;
     font-weight: 800px;
@@ -404,7 +404,6 @@ font-weight: bold;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-flow: column wrap;
     background-color: #F2F2F2;
     width:340px;
     padding: 20px;
@@ -413,50 +412,28 @@ font-weight: bold;
 }
 .iconestar2
 {
-    color: blue; 
-    margin-top: 15px;
-    margin-left: 20px;
-}
-
-.titre2
-{
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+ color: blue; 
+ padding-bottom: 5px;
 
 
 }
-.title2 h3
+
+.titre1
 {
 font-family: 'Raleway', sans-serif;
-    font-weight: 800px;
+    font-weight: 600px;
     color: black;
     font-size: 17px;
-    margin-left: 20px;   
-
 }
 
 .images2
 {
-    height: 127px;
+    height: 133px;
     width:115px;
     border-bottom-left-radius: 17px;
     border-top-left-radius: 17px;
     display: flex;
     object-fit: cover;
-}
-
-.prix2
-{
-font-family: 'Raleway', sans-serif;
-font-weight: 300px;  
-margin-left: 20px; 
-margin-bottom: 15px;  
-color: black;
-font-size: 12px;
-
 }
 .cases2
 {
@@ -473,6 +450,7 @@ font-size: 12px;
     box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
     transform: scale(1);
     transition:400ms;
+    height: 133px;
     }
 
 .cases2:hover
@@ -490,11 +468,52 @@ font-size: 12px;
     font-family: 'Raleway', sans-serif;
     font-weight: 800px;
     color: black;
-   font-size:20px; 
+    font-size:20px; 
     margin-left: 10px;
     margin-bottom: 20px;
   
 }
+.titercontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 1px;
+}
+section a 
+{
+    text-decoration: none;
+}
+.all
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ padding-left: 20px;
+}
+.all1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ padding-left: 20px;
+
+}
+.prix2
+{
+font-family: 'Raleway', sans-serif;
+font-weight: 300px;  
+color: black;
+font-size: 12px;
+}
+
+.titrsce2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*Fin section2*/
 /*section3*/
 #section3
 {
@@ -674,7 +693,6 @@ footer {
         display: flex;
         align-items: center;
         flex-wrap: wrap-reverse;
-
     }
      #section1
     {
@@ -694,6 +712,7 @@ footer {
     {
         align-self: center;
         margin-left: 50px;
+
     }
   
 
