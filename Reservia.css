@@ -9,12 +9,12 @@
 
 #headercontainer
 {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 /*---NAVIGATION*/
-      nav  a {
+nav  a {
   text-decoration: none;
   color: black;
 }
@@ -30,7 +30,8 @@ nav ul li {
   padding-top: 45px;
 }
 
-nav ul li a {
+nav ul li a 
+{
   padding: 43px 25px 0;
 }
 
@@ -41,7 +42,8 @@ nav ul li a {
   text-decoration: none;
 }
 
-nav ul li a:hover {
+nav ul li a:hover
+ {
     border-top: 2px solid blue;
 }
 
@@ -61,26 +63,24 @@ nav ul li a:hover {
 #logo img
 {
    width: 115px;
-    height: 60px;  
-     margin-left: 15px;
+   height: 60px;  
+   margin-left: 15px;
 
 }
 header p
 {
-font-family: 'Raleway', sans-serif;
-font-weight: 300px;
-    margin-left: 15px;
-    cursor: text;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300px;
+  margin-left: 15px;
+  cursor: text;
 
 }
 header h1
 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700px;    
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700px;    
     margin-left: 15px;
     cursor: text;
-
-    
 }
 
 /*---SEARCHBAR*/
@@ -100,12 +100,12 @@ header h1
     justify-content: center;
     margin-left:15px;
     background-color: #f2f2f2;
-   padding: 15px 20px 16px 20px;
+    padding: 15px 20px 16px 20px;
 }
 input
 {   
-  padding: 15px 20px 16px 20px;
-   border-left: none;
+    padding: 15px 20px 16px 20px;
+    border-left: none;
     border: solid;
     border-width:1px;
     border-color: #F2F2F2;    
@@ -116,7 +116,7 @@ input
   font-weight: bold;
   text-align: center;
 }
- .loup {
+.loup {
     background-color: #0065FC;
     color: white;
     border: none;
@@ -125,32 +125,33 @@ input
     font-size: 1em;
     cursor: pointer;
 }
-    #boutonloupe {
+#boutonloupe 
+{
     display: none;
     transform: scale(1);
     transition: 400ms;
 }
 #boutonloupe:hover
 {
- transform: scale(1.05);
+    transform: scale(1.05);
 }
 .btn
 {
-  background-color: #0065fc;
-  color: white;
-  padding: 15px 20px 16px 20px;
-  font-family: "Raleway", "sans-serif";
-  font-weight: bold;
-  border: transparent;
-  border-radius: 0 10px 10px 0;
-  text-align: center;
-  cursor: pointer;
+   background-color: #0065fc;
+   color: white;
+   padding: 15px 20px 16px 20px;
+   font-family: "Raleway", "sans-serif";
+   font-weight: bold;
+   border: transparent;
+   border-radius: 0 10px 10px 0;
+   text-align: center;
+   cursor: pointer;
    transform: scale(1);
     transition: 400ms;
 }
 .btn:hover
 {
- transform: scale(1.05);
+  transform: scale(1.05);
 }
 /*---filter*/
 #allfilter
@@ -161,7 +162,6 @@ input
     flex-wrap: wrap;
     margin-left: 20px;
     margin-top: 30px;
-
 }
 .f2
 {
@@ -196,8 +196,8 @@ input
     border-left:none;
     padding-top: 2px;
     padding-bottom: 2px;
-        transition:all 600ms;
-        height: 40px;
+    transition:all 600ms;
+    height: 40px;
 
 }
 
@@ -417,7 +417,7 @@ font-weight: bold;
 }
 .iconestar2
 {
- color: blue; 
+ color: #0065FC; 
  padding-bottom: 5px;
 
 
@@ -663,7 +663,7 @@ footer {
   background-color: #f2f2f2;
   padding: 40px 0 50px 0;
 }
-/*Responsive design*/
+/*Responsive design pour  tablettes et smartphones*/
 
 @media all and (max-width: 740px) 
 {
@@ -827,7 +827,15 @@ padding-top: 14px;
         }
 
 
-
    
 
 }
+@media only screen and (min-device-width:1380px) {
+#section1,#section2,#section3
+{
+    width: auto;
+}
+
+
+
+    }
