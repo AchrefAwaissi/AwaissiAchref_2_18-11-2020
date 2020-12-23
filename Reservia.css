@@ -1,7 +1,7 @@
 #mapage
 {
-height:auto;
-max-width: 1280px;}
+max-width: 1280px;
+}
 /*Body*/
 body
 {
@@ -10,6 +10,8 @@ body
     padding: 0;
     border: none;
     color: black;
+    display: flex;
+    justify-content: center;
 }
 /*---header*/
 #P1
@@ -31,7 +33,6 @@ body h1
   display: flex;
   flex-direction: row;
     justify-content: space-between;
-
 }
 #containermenu
 {
@@ -47,7 +48,6 @@ body h1
     height: 115px;
     width: 67px;
 }
-
 #headercontainer img {
   padding: 30px 0 20px 40px;
   width: 113px;
@@ -58,27 +58,17 @@ ul {
   list-style-type: none;
   margin: 0;
     display: flex;
-
 }
-
 nav ul li {
   padding-right: 20px;
   padding-top: 45px;
 }
-
 nav ul li a {
   padding: 43px 25px 0;
 }
-
-nav ul li a:hover
- {
-  color: #0065fc;
-}
-
 nav ul li a:hover {
   border-top: 2px solid;
     color: #0065fc;
-
 }
 nav a
 {
@@ -89,8 +79,6 @@ nav a
 {
     color:#0065fc;
       border-top: 2px solid;
-
-
 }
 
 #inscrire {
@@ -175,7 +163,6 @@ input
 {
   transform: scale(1.05);
       transition: 400ms;
-
 }
 /*FILTER*/
 #allfilter
@@ -186,14 +173,12 @@ input
     margin-top: 30px;
     margin-left: 20px;
 }
-
 .filtercontainer
 {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content:flex-start;
-
 }
 .filtertitle
 {
@@ -220,7 +205,6 @@ input
     transition:all 300ms;
     height: 43px;
 }
-
 .icone1:hover
 {
     background-color:#DEEBFF; 
@@ -231,13 +215,12 @@ input
 {
    color:#0065FC;
     border-radius:100%;
-    padding: 13px;
+    padding: 13px 12px 13px 12px;
     display: flex;
     align-self: center;
     background-color:#DEEBFF;
     margin-right: 10px;
 }
-
 .iconechild
 {
    color:#0065FC;
@@ -252,7 +235,7 @@ input
 {
     color:#0065FC;
     border-radius:100%;
-   padding: 14px 13px 12px 13px;
+   padding: 13px;
     background-color:#DEEBFF;
     }
 .iconedog
@@ -267,8 +250,8 @@ input
 }
 .text1
 {
-    font-family: 'Raleway', sans-serif;
     padding-right: 10px;
+    padding-left: 10px;
     font-size: 17px;
 }
 /*INFO*/
@@ -279,8 +262,6 @@ input
      margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
-
-
 }
 .iconeinfo
 {
@@ -292,9 +273,6 @@ input
   margin-top: auto;
   margin-bottom: auto;
   font-size: 13px;
-
-
-
 }
 .infophrase
 {
@@ -303,7 +281,6 @@ margin-top: auto;
 margin-bottom: auto;
 margin-left:10px;
 cursor: text;
-
 }
 /*section1+section2*/
 #section12
@@ -311,8 +288,6 @@ cursor: text;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-
 }
 /*section1*/
 #section1
@@ -341,14 +316,12 @@ section a
 {
     text-decoration: none;
 }
-
 .hebergements
 {
 font-family: 'Raleway', sans-serif;
 margin-left: 20px;
 font-size: 20px;
 }
-
 .cases1
 {
     background-color: white;
@@ -375,8 +348,6 @@ font-size: 20px;
     color: black;
     margin-left: 10px;
     font-size:17px; /*les tittres de cases*/
-
-
 }
 .prix1
 {
@@ -384,9 +355,7 @@ font-size: 20px;
   color: black;
   padding: 10px;
   font-size: 12px;
-
 }
-
 .images1
 {
     height: 110px;
@@ -400,19 +369,17 @@ font-size: 20px;
     display: flex;
     flex-direction: row;
     color: #0065FC;
-padding: 10px;    
-
+    padding: 10px;    
 }
 .showmore
 {
-font-weight: bold;
+   font-weight: bold;
     margin-top: 15px;
     margin-left:20px;
     margin-bottom:10px;
     font-size: 20px;
     display: flex;
     align-self: flex-end;
-    
 }
 .greystar
 {
@@ -426,7 +393,6 @@ font-weight: bold;
        padding: 20px;
         margin-top: 20px;
         border-radius: 17px;
-
 }
 #section2
 {
@@ -440,15 +406,12 @@ font-weight: bold;
 {
  color: #0065FC; 
  padding-bottom: 5px;
-
 }
 .titre1
 {
-    font-family: 'Raleway', sans-serif;
     color: black;
     font-size: 17px;
 }
-
 .images2
 {
     height: 133px;
@@ -486,12 +449,10 @@ font-weight: bold;
 }
 .populaires
 {
-    font-family: 'Raleway', sans-serif;↩
     color: black;
     font-size:20px; 
     margin-left: 10px;
     margin-bottom: 20px;
-  
 }
 .titercontainer
 {
@@ -504,28 +465,19 @@ section a
 {
     text-decoration: none;
 }
-.all
+.all,.all1
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-left: 20px;
 }
-.all1
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-left: 20px;
 
-}
 .prix2
 {
-font-family: 'Raleway', sans-serif;
-color: black;
+  color: black;
 font-size: 12px;
 }
-
 .titrsce2
 {
     display: flex;
@@ -543,13 +495,11 @@ font-size: 12px;
     height: auto;
     margin-left:10px;
 }
-
 .Activities
 {
     display: flex;
     margin-left: 20px;
    font-size:20px; 
-
 }
 .images3
 {
@@ -558,7 +508,6 @@ font-size: 12px;
     border-top-right-radius: 17px;
     border-top-left-radius: 17px;
     object-fit: cover;
-
 }
 .casecontainer2
 {
@@ -566,7 +515,6 @@ font-size: 12px;
     flex-direction: row;
     justify-content:space-between;
     padding: 10px;
-
 }
 .cases3
 {
@@ -586,7 +534,7 @@ transition:400ms;
    transform: scale(1.05);
    transition: 200ms;
 }
-.small
+.small,.small2
 {
 display: flex;
 flex-direction: column;
@@ -608,12 +556,6 @@ object-position: center;
 object-fit: cover;
 border-radius: 20px 20px 0 0;
 }
-.small2
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 .imgpetite3
 {
 width: 265px;
@@ -627,7 +569,6 @@ border-radius:17px 17px 0 0;
  width: 265px;
 height:100px; 
 object-fit: cover;
-
 } 
 .text3
 {
@@ -638,7 +579,6 @@ object-fit: cover;
     font-weight: bold;
     text-align: center;
     font-size: 14px;
-
 }
 /*footer*/
 footer a
@@ -654,7 +594,6 @@ footer a:hover
 {
     text-decoration: underline;
 }
-
 .apropos,.noshebergements,.assistance 
 {
   display: flex;
@@ -757,7 +696,6 @@ padding-right: 10px;
         align-items: center;
         flex-wrap: wrap-reverse;
          width: 100%;
-
     }
      #section1
     {
@@ -781,7 +719,6 @@ padding-right: 10px;
     #allsection2,#section3,#section1
     {
                width: 100%;
-
     }
 
     #section2
@@ -789,15 +726,11 @@ padding-right: 10px;
         display: flex;
         align-items: center;
     }
-        
-
     .cases2
     {
             width:340px;
             display: flex;
             align-self: center;
-
-
     }
   #containermenu {
     flex-direction: column-reverse;
@@ -820,8 +753,6 @@ padding-right: 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: auto;
-
     }
     .casecontainer2
     {
@@ -829,7 +760,6 @@ padding-right: 10px;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: auto;
 
     }
     .cases3
@@ -847,10 +777,8 @@ padding-right: 10px;
     font-weight: bold;
     text-align: start;
     font-size: 14px;
-
 }
 .imgpetite1,.imgpetite2,.imgpetite3,.imgpetite4,.images3,.images1
-
        {
         border-top-left-radius: 17px;
         border-top-right-radius: 17px;
@@ -858,19 +786,9 @@ padding-right: 10px;
         height:115px;
         object-fit: cover;
         }
-
 }
-/* Large screens ----------- */
-@media all and (min-width: 1820px) 
-{
-#section1,#section2,#section3
-{
-    width: auto;
-}
-    }
     #mapage
     {
-       align-self: center;
        max-width: 1280px;
     }
 }
