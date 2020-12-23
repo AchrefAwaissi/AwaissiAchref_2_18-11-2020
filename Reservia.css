@@ -21,7 +21,6 @@ body
 }
 body h1
 {
- font-family: 'Raleway', sans-serif;
     font-size: 34px;
     margin-left: 15px;
     cursor: text;
@@ -178,6 +177,7 @@ input
       transition: 400ms;
 
 }
+/*FILTER*/
 #allfilter
 {
     display: flex;
@@ -271,14 +271,15 @@ input
     padding-right: 10px;
     font-size: 17px;
 }
+/*INFO*/
 .info
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
      margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
+
 
 }
 .iconeinfo
@@ -287,20 +288,20 @@ input
   font-size: small;
   border: 1px #d0d0d0 solid;
   border-radius: 100%;
-  padding: 6px 12px 6px 12px ;
+  padding: 5px 10px 5px 10px ;
   margin-top: auto;
   margin-bottom: auto;
   font-size: 13px;
 
 
+
 }
-.Infophrase
+.infophrase
 {
 margin-top:25px;
-font-family: 'Raleway', sans-serif;
 margin-top: auto;
 margin-bottom: auto;
-margin-left: 10px;
+margin-left:10px;
 cursor: text;
 
 }
@@ -736,8 +737,8 @@ footer
   }
 .infophrase
 {
-padding-top: 14px; 
-}
+padding-top: 4px; 
+margin-left: 10px;}
 #boutonloupe 
 {
     display: inline-block;
