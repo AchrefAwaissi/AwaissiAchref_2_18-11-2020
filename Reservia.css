@@ -14,9 +14,13 @@ body
     justify-content: center;
 }
 /*---header*/
+header
+{
+      font-family: 'Raleway', sans-serif;
+
+}
 #P1
 {
-  font-family: 'Raleway', sans-serif;
   margin-left: 15px;
   cursor: text;
   font-size: 17px;
@@ -53,7 +57,6 @@ body h1
   width: 113px;
   height: 63px;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -80,19 +83,15 @@ nav a
     color:#0065fc;
       border-top: 2px solid;
 }
-
 #inscrire {
   font-weight: bold;
   padding: 45px 70px 0 30px;    
   color: #0065fc;
   text-decoration: none;
-
 }
-
 #inscrire :hover {
   text-decoration: underline;
 }
-
 /*---SEARCHBAR*/
 #barrederecherche
 {
@@ -525,7 +524,7 @@ height: auto;
 border-radius: 17px;
 margin-right: 20px;
 margin-left: 20px;
-box-shadow: 0 0 15px rgba(0, 0, 0, .2);↩
+box-shadow: 0 0 15px rgba(0, 0, 0, .2);
 transform: scale(1);
 transition:400ms;
 
@@ -671,14 +670,15 @@ footer
     flex-direction: column;
     align-items: flex-start;
 }
-  .apropos,.noshebergements,.assistance ;
+  .apropos,.noshebergements,.assistance 
   {
     padding-left: 20px;
   }
 .infophrase
 {
 padding-top: 4px; 
-margin-left: 10px;}
+margin-left: 10px;
+}
 #boutonloupe 
 {
     display: inline-block;
@@ -791,5 +791,5 @@ padding-right: 10px;
     #mapage
     {
        max-width: 1280px;
-    }
+    
 }
