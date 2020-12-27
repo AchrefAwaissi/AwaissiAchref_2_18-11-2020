@@ -21,14 +21,14 @@ header
 }
 #P1
 {
-  margin-left: 15px;
+  margin-left: 30px;
   cursor: text;
   font-size: 17px;
 }
 body h1
 {
     font-size: 34px;
-    margin-left: 15px;
+    margin-left: 30px;
     cursor: text;
 }
 /*---header*/
@@ -98,6 +98,7 @@ nav a
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin-left: 20px;
 }
 .map
 {
@@ -171,7 +172,7 @@ input
     justify-content:flex-start;
     flex-flow: row wrap;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .filtercontainer
 {
@@ -261,7 +262,7 @@ input
     flex-direction: row;
      margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .iconeinfo
 {
@@ -279,7 +280,7 @@ input
 margin-top:25px;
 margin-top: auto;
 margin-bottom: auto;
-margin-left:10px;
+margin-left:15px;
 cursor: text;
 }
 /*section1+section2*/
@@ -300,8 +301,8 @@ cursor: text;
     background-color:#F2F2F2;
     padding: 10px;
     border-radius: 17px;
-    margin: 0;
-    margin-right: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
     margin-top: 20px;   
     height: auto; 
 }
@@ -389,10 +390,11 @@ font-size: 20px;
 #allsection2
 {
        background-color: #F2F2F2;
-       width:340px;
+       width:335px;
        padding: 20px;
         margin-top: 20px;
         border-radius: 17px;
+        margin-right: 10px;
 }
 #section2
 {
